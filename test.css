@@ -1,0 +1,63 @@
+.container {
+    background-color: #e6e2f1;
+    margin: auto;
+    
+}
+.registration {
+    height: 800px;
+    width: 800px;
+    background-color: #fafafa;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    height: 220px;
+    border-bottom: 3px solid #716969;
+    margin-top: 70px;
+}
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    max-width: 100%;
+}
+.header h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+}
+.register-form {
+    margin: 50px;
+}
+
+label.btn.btn-default.btn-file {
+    background-image: url(https://www.gstatic.com/images/icons/material/system/1x/attach_file_black_20dp.png);
+    background-repeat: no-repeat;
+    margin-left: 175px;
+    border: none;
+}
+.icon-btn {
+    float: left;
+}
+select#input-location {
+    color: #999999;
+}
+input#btn {
+    width: 400px;
+    height: 47px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #7ec0de;
+}
+label.col-sm-3.col-form-label,.col-sm-9 {
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+input#inputname,input#inputphone,input#inputlocation,textarea#comment,input#inputEmail3,select#exampleFormControlSelect1 {
+    border:none;
+}
