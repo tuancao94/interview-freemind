@@ -6,11 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="test.css">
-  <link rel="stylesheet" href="app.js">
-  <link rel="stylesheet" href="data.php">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
 </head>
 
 <body>
@@ -22,18 +19,20 @@
         <h1>Hãy gửi CV của bạn cho chúng tôi</h1>
       </div>
       <div class="register-form">
-        <form action="#" method="post" id = "form-box">
+        <form action="#" method="post" id="form-box">
           <div class="form-group row">
             <label for="input-name" class="col-sm-3 col-form-label">Tên của bạn</label>
             <div class="col-sm-9">
-              <input type="text" class="form-control" name= "you-name" id="input-name" placeholder="Ví dụ: Nguyễn Văn A" required>
+              <input type="text" class="form-control" name="you-name" id="input-name" placeholder="Ví dụ: Nguyễn Văn A"
+                required>
               <span class="name-error"></span>
             </div>
           </div>
           <div class="form-group row">
             <label for="input-phone" class="col-sm-3 col-form-label">Số điện thoại</label>
             <div class="col-sm-9">
-              <input type="text" class="form-control" name = "tel" id="input-phone" placeholder="Số điện thoại liên lạc" required>
+              <input type="text" class="form-control" name="tel" id="input-phone" placeholder="Số điện thoại liên lạc"
+                required>
               <span class="phone-error"></span>
             </div>
           </div>
@@ -41,12 +40,12 @@
           <div class="form-group row">
             <label for="input-location" class="col-sm-3 col-form-label">Vị trí</label>
             <div class="col-sm-9">
-              <select class="form-control"  name="location" id="input-location">
+              <select class="form-control" name="location" id="input-location">
                 <option>Junior Ecommerce web Developer</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
+                <option>Front-end Developer</option>
+                <option>Back-end Developer</option>
+                <option>Full-stack Developer</option>
+                <option>Mobile Developer</option>
               </select>
             </div>
           </div>
@@ -61,27 +60,31 @@
           </div>
           <div class="form-group" id="icon">
             <div class="icon-btn">
-              <label for="default"class="btn btn-default btn-file"></label>
-              <input type="file" name ="item" id ="default"style="display: none;" required>
+              <label for="default" class="btn btn-default btn-file"></label>
+              <input type="file"  id="default" name="item" style="display: none;" required>
             </div>
             <p>Đính kèm hình ảnh</p>
           </div>
-          
+
           <div id="input-email" class="form-group row">
             <label for="inputEmail3" class="col-sm-3 col-form-label">Email</label>
             <div class="col-sm-9">
-              <input type="text" class="form-control" id="input-email" name= "email" placeholder="Ex:contact@freemind.vn" required>
+              <input type="text" class="form-control" id="input-email" name="email" placeholder="Ex:contact@freemind.vn"
+                required>
               <span class="mail-error"></span>
             </div>
           </div>
           <div class="send">
-            <input type="submit" id="btn" onclick = "save()" value="Gửi CV cho freemind" class="btn btn-primary">
+            <input onclick="return save()" type="submit" id="btn"  value="Gửi CV cho freemind" class="btn btn-primary">
           </div>
         </form>
       </div>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js "></script>
+  <script type="text/javascript" href="app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
