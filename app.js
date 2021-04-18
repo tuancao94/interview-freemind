@@ -81,7 +81,7 @@ $(document).ready(function () {
              phone: $('#input-phone').val(),
              position:$('#input-location').val(),
              exp:$('#input-comment').val(),
-             picture:$('input[type=file]').val().replace(/.*(\/|\\)/, ''),
+             picture:$('input[type=file]').val().split('\\').pop(),
              email:$('#input-email').val(),
          },
          success: function (res) {
